@@ -3,7 +3,7 @@ import Config
 # Configure your database
 config :transactions_server, TransactionsServer.Repo,
   username: "postgres",
-  password: "postgres",
+  password: "root",
   hostname: "localhost",
   database: "transactions_server_dev",
   stacktrace: true,
